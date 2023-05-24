@@ -15,8 +15,7 @@
 	<description>Demo project for Logging</description>
 	<properties>
 		<java.version>11</java.version>
-		<sonar.projectKey>logging-assigment</sonar.projectKey>
-		<sonar.organization>zemoso-logger-assigment</sonar.organization>
+		<sonar.organization>ashuotshpandey3142</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 	<dependencies>

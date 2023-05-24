@@ -22,7 +22,11 @@ public class LogerApplicationDemoApplication {
 
 		log.debug("Request {}",name);
 		if(name.equalsIgnoreCase("test")){
-			throw new RuntimeException("Exception raised due to enter test");
+			try{
+				throw new MyOwnRuntimeException("Exception raised due to enter test");
+			}catch (Exception e){
+				log.debug(e.getMessage());
+			}
 		}
 		String response="Hi "+name+" Welcome to Zemoso";
 		log.debug("Response {}",response);
